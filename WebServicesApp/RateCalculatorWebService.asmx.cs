@@ -21,9 +21,8 @@ namespace WebServicesApp
     // [System.Web.Script.Services.ScriptService]
     public class RateCalculatorWebService : System.Web.Services.WebService
     {
-
         [WebMethod]
-        public ProductRate GetLowestRateByDate(DateTime strPeriodStart, DateTime strPeriodEnd)
+        public ProductRate GetLowestRateByDate(DateTime periodStart, DateTime periodEnd)
         {
             try
             {
@@ -57,7 +56,7 @@ namespace WebServicesApp
 
                 //Get the lowest available rate
                 result = records
-                    .Where(d => d.PeriodStart >= strPeriodStart && d.PeriodEnd <= strPeriodEnd)
+                    .Where(d => d.PeriodStart >= periodStart && d.PeriodEnd <= periodEnd)
                     .OrderBy(p => p.FinalRate)
                     .Select(a => new ProductRate()
                     {
