@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<productdata>
+    <record>
+        <Product>3 Year Closed</Product>
+        <ProductRate>2.7</ProductRate>
+        <Program>Standard</Program>
+        <ProgramRateAdjustment>-0.05</ProgramRateAdjustment>
+        <PeriodStart>2021-03-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-03-14 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>3 Year Closed</Product>
+        <ProductRate>2.7</ProductRate>
+        <Program>Quick Close</Program>
+        <ProgramRateAdjustment>-0.1</ProgramRateAdjustment>
+        <PeriodStart>2021-03-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-03-14 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>5 Year Closed</Product>
+        <ProductRate>3.04</ProductRate>
+        <Program>Standard</Program>
+        <ProgramRateAdjustment>-0.05</ProgramRateAdjustment>
+        <PeriodStart>2021-03-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-03-14 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>5 Year Closed</Product>
+        <ProductRate>3.04</ProductRate>
+        <Program>Quick Close</Program>
+        <ProgramRateAdjustment>-0.1</ProgramRateAdjustment>
+        <PeriodStart>2021-03-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-03-14 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>3 Year Closed</Product>
+        <ProductRate>2.8</ProductRate>
+        <Program>Standard</Program>
+        <ProgramRateAdjustment>-0.15</ProgramRateAdjustment>
+        <PeriodStart>2021-03-15 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-03-31 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>3 Year Closed</Product>
+        <ProductRate>2.8</ProductRate>
+        <Program>Quick Close</Program>
+        <ProgramRateAdjustment>-0.22</ProgramRateAdjustment>
+        <PeriodStart>2021-03-15 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-03-31 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>5 Year Closed</Product>
+        <ProductRate>3.04</ProductRate>
+        <Program>Standard</Program>
+        <ProgramRateAdjustment>-0.15</ProgramRateAdjustment>
+        <PeriodStart>2021-03-15 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-03-31 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>5 Year Closed</Product>
+        <ProductRate>3.04</ProductRate>
+        <Program>Quick Close</Program>
+        <ProgramRateAdjustment>-0.22</ProgramRateAdjustment>
+        <PeriodStart>2021-03-15 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-03-31 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>3 Year Closed</Product>
+        <ProductRate>2.8</ProductRate>
+        <Program>Standard</Program>
+        <ProgramRateAdjustment>-0.15</ProgramRateAdjustment>
+        <PeriodStart>2021-04-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-04-02 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>3 Year Closed</Product>
+        <ProductRate>2.8</ProductRate>
+        <Program>Quick Close</Program>
+        <ProgramRateAdjustment>-0.2</ProgramRateAdjustment>
+        <PeriodStart>2021-04-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-04-02 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>5 Year Closed</Product>
+        <ProductRate>3.02</ProductRate>
+        <Program>Standard</Program>
+        <ProgramRateAdjustment>-0.15</ProgramRateAdjustment>
+        <PeriodStart>2021-04-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-04-02 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>5 Year Closed</Product>
+        <ProductRate>3.02</ProductRate>
+        <Program>Quick Close</Program>
+        <ProgramRateAdjustment>-0.2</ProgramRateAdjustment>
+        <PeriodStart>2021-04-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-04-02 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>3 Year Closed</Product>
+        <ProductRate>2.75</ProductRate>
+        <Program>Standard</Program>
+        <ProgramRateAdjustment>-0.15</ProgramRateAdjustment>
+        <PeriodStart>2021-04-03 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-04-30 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>3 Year Closed</Product>
+        <ProductRate>2.75</ProductRate>
+        <Program>Quick Close</Program>
+        <ProgramRateAdjustment>-0.15</ProgramRateAdjustment>
+        <PeriodStart>2021-04-03 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-04-30 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>5 Year Closed</Product>
+        <ProductRate>3.02</ProductRate>
+        <Program>Standard</Program>
+        <ProgramRateAdjustment>-0.15</ProgramRateAdjustment>
+        <PeriodStart>2021-04-03 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-04-30 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>5 Year Closed</Product>
+        <ProductRate>3.02</ProductRate>
+        <Program>Quick Close</Program>
+        <ProgramRateAdjustment>-0.15</ProgramRateAdjustment>
+        <PeriodStart>2021-04-03 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-04-30 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>3 Year Closed</Product>
+        <ProductRate>2.75</ProductRate>
+        <Program>Standard</Program>
+        <ProgramRateAdjustment>-0.05</ProgramRateAdjustment>
+        <PeriodStart>2021-05-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-05-30 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>3 Year Closed</Product>
+        <ProductRate>2.75</ProductRate>
+        <Program>Quick Close</Program>
+        <ProgramRateAdjustment>-0.1</ProgramRateAdjustment>
+        <PeriodStart>2021-05-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-05-30 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>5 Year Closed</Product>
+        <ProductRate>3.02</ProductRate>
+        <Program>Standard</Program>
+        <ProgramRateAdjustment>-0.05</ProgramRateAdjustment>
+        <PeriodStart>2021-05-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-05-30 23:59:59.000</PeriodEnd>
+    </record>
+    <record>
+        <Product>5 Year Closed</Product>
+        <ProductRate>3.02</ProductRate>
+        <Program>Quick Close</Program>
+        <ProgramRateAdjustment>-0.1</ProgramRateAdjustment>
+        <PeriodStart>2021-05-01 00:00:00.000</PeriodStart>
+        <PeriodEnd>2021-05-30 23:59:59.000</PeriodEnd>
+    </record>
+</productdata>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetLowestRateByDate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="strPeriodStart" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="strPeriodEnd" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLowestRateByDateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLowestRateByDateResult" type="tns:ProductRate" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ProductRate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Program" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Product" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RateAdjustment" type="s:float" />
+          <s:element minOccurs="1" maxOccurs="1" name="Rate" type="s:double" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetLowestRateByDateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLowestRateByDate" />
+  </wsdl:message>
+  <wsdl:message name="GetLowestRateByDateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLowestRateByDateResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RateCalculatorWebServiceSoap">
+    <wsdl:operation name="GetLowestRateByDate">
+      <wsdl:input message="tns:GetLowestRateByDateSoapIn" />
+      <wsdl:output message="tns:GetLowestRateByDateSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RateCalculatorWebServiceSoap" type="tns:RateCalculatorWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLowestRateByDate">
+      <soap:operation soapAction="http://tempuri.org/GetLowestRateByDate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RateCalculatorWebServiceSoap12" type="tns:RateCalculatorWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLowestRateByDate">
+      <soap12:operation soapAction="http://tempuri.org/GetLowestRateByDate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RateCalculatorWebService">
+    <wsdl:port name="RateCalculatorWebServiceSoap" binding="tns:RateCalculatorWebServiceSoap">
+      <soap:address location="https://localhost:44345/RateCalculatorWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RateCalculatorWebServiceSoap12" binding="tns:RateCalculatorWebServiceSoap12">
+      <soap12:address location="https://localhost:44345/RateCalculatorWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
